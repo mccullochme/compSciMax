@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+h1{
+	font: 200 1.2em "Segoe UI Light", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 48px;
+	color: #fff;
+	margin: 0px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+.box1{
+	height: 1000px;
+	width: 100%;
+	background-image: url("../compSciMax/content/javaCode.png");
+	background-size: cover;
+	background-position: center;
+	display: table;
+	background-attachment: fixed;
+
+}
+
+.box2{
+	height: 500px;
+	width: 100%;
+	background-image: url("../compSciMax/content/script.jpeg");
+	background-size: cover;
+	background-position: center;
+	display: table;
+	background-attachment: fixed;
+
+}
+
+.box3{
+	height: 500px;
+	width: 100%;
+	background-image: url("../compSciMax/content/python.jpeg");
+	background-size: cover;
+	background-position: center;
+	display: table;
+	background-attachment: fixed;
+
+}
+
+.box4{
+	height: 500px;
+	width: 100%;
+	background-image: url("../compSciMax/content/cppCode.png");
+	background-size: cover;
+	background-position: center;
+	display: table;
+	background-attachment: fixed;
+
+}
+
+.box5{
+	height: 500px;
+	width: 100%;
+	background-image: url("../compSciMax/content/cSharpCode.png");
+	background-size: cover;
+	background-position: center;
+	display: table;
+	background-attachment: fixed;
+
+}
+
+.fixed {
+      position: fixed;
+      top: 0;
+      width: 100%;
+}
+
+
+.row{
+	display:flex;
+}
+
+.col{
+	flex:1;
+}
+
+.languages{
+	border-width: 1px;
+	border-color: black;
+	border-radius: 10px;
+	background-color: #666;
+}
+
+#header {
+    background: #666;
+    padding: 3px;
+    padding: 10px 20px;
+    color: #fff;
+	text-align: center;
+}
+
+
+  
+  
+  /* For aesthetics only ------------------------------------------------------------------*/
+  
+
+  
