@@ -11,14 +11,15 @@
 <div id="header" class="row">
     
     <div class="col">Logo</div>
-    <div class="col">compSciMax</div>
-    <select name="language" class="col, languages">
-        <option value="java">Java</option>
-        <option value="javaScript">JavaScript</option>
-        <option value="python">Python</option >
-        <option value="c++">C++</option >
-        <option value="cSharp">C#</option>
-        </select>
+    <input class="homeButton" type="button" onClick="window.location.href=index.html">compSciMax</input>
+    <select onChange="window.location.href=this.value" class="languages">
+        <option selected disabled>Languages</option>
+        <option value="learnJava.html">Java</option>
+        <option value="learnJavaScript.html">JavaScript</option>
+        <option value="learnPython.html">Python</option>
+        <option value="learnCpp.html">C++</option>
+        <option value="learnCsharp.html">CSharp</option>
+    </select>
 </div>
 
 <div class="box1">

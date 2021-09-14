@@ -84,6 +84,13 @@ h1{
 	flex:1;
 }
 
+.homeButton{
+	flex:1;
+	border-radius: 10px;
+	background-color: #666;
+	
+}
+
 .languages{
 	border-width: 1px;
 	border-color: black;

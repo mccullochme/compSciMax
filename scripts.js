@@ -5,13 +5,13 @@ $(function () {
   
 function createSticky(sticky) {
   
-    if (typeof sticky !== "undefined") {
+  if (typeof sticky !== "undefined") {
   
-      var pos = sticky.offset().top,
-      win = $(window);
+    var pos = sticky.offset().top,
+    win = $(window);
   
-      win.on("scroll", function () {
-        win.scrollTop() >= pos ? sticky.addClass("fixed") : sticky.removeClass("fixed");  //conditional. variablename = (condition) ? value1:value2 
+    win.on("scroll", function () {
+    win.scrollTop() >= pos ? sticky.addClass("fixed") : sticky.removeClass("fixed");  //conditional. variablename = (condition) ? value1:value2 
 
         // var element_position = $('#scroll-to').offset().top;
         // var screen_height = $(window).height();
@@ -26,6 +26,6 @@ function createSticky(sticky) {
         // if(element_in_view || has_reached_bottom_of_page) {
           
         // }
-      });
-    }
+    });
+  }
 }
