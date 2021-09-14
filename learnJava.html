@@ -8,24 +8,33 @@
 </head>
 <body>
 
-<div id="header" class="row">
+    <div id="header" class="row">
     
-    <div class="logo">Logo</div>
-    <button type="image" onclick="location.href='index.html'" class="homeButton"> < compSciMax > </button>
-    <select onChange="window.location.href=this.value" class="languages">
-        <option selected disabled>Languages</option>
-        <option value="learnJava.html">Java</option>
-        <option value="learnJavaScript.html">JavaScript</option>
-        <option value="learnPython.html">Python</option>
-        <option value="learnCpp.html">C++</option>
-        <option value="learnCsharp.html">CSharp</option>
-    </select>
-</div>
+        <div class="col">
+            <p style="width: 100%; text-align: left; padding:0; margin:0;"> < CSM > </p>
+        </div>
+    
+        <div class="col">
+            <button type="image" onclick="location.href='index.html'" class="homeButton col"> < compSciMax > </button>
+        </div>
+    
+        <div class="col">
+            <select onChange="window.location.href=this.value" class="languages col">
+                <option selected disabled>Languages</option>
+                <option value="learnJava.html">Java</option>
+                <option value="learnJavaScript.html">JavaScript</option>
+                <option value="learnPython.html">Python</option>
+                <option value="learnCpp.html">C++</option>
+                <option value="learnCsharp.html">CSharp</option>
+            </select>
+        </div>
+    
+    </div>
 
 <div class="row">
 	<div class="col">
         <img src ="content/java_hw.png"></img>
-        <input type="text"></input>
+        <input type="text" class="text-field"></input>
 
     </div>
     <div class="col"></div>

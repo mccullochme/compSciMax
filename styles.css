@@ -110,32 +110,26 @@ section{
 }
 
 .logo{
-	flex:.31;
-	max-width: 25px;
 	margin-left: 0;
+	text-align: left;
 }
 
 .homeButton{
-	flex:.31;
-	background-color: #000;
 	text-align: center;
 	margin:auto;
-	max-width: 125px;
 	color:white;
 	border:none;
-	
+	background-color: #000;
 }
 
 .languages{
-	flex:.31;
 	border-width: 1px;
-	border-color: black;
 	border-radius: 10px;
 	background-color: #000;
 	margin-right: 0;
+	margin-left: auto;
 	max-width: 125px;
 	color:white;
-	
 }
 
 .java-pic{
@@ -166,6 +160,12 @@ section{
 	width: 100vw;
 	max-width: 400px;
 	
+}
+
+.text-field{
+	background-color: rgb(34, 26, 15);
+	text-align: center;
+	color: rgb(165, 122, 76);
 }
 
 #header {
