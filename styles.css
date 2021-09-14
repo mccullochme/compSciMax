@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-color: rgb(34, 26, 15);
 }
 
 h1{
@@ -12,6 +13,30 @@ h1{
 	display: table-cell;
 	vertical-align: middle;
 
+}
+
+section{
+	
+	margin: 0px;
+	width:100vw;
+	text-align:left;
+	
+	padding:10vh;
+	display:flex;
+	background-color: white;
+}
+
+.info{
+	flex:.8;
+	font: 200 1.2em "Segoe UI Light", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 24px;
+	color: #000;
+	max-width: 50vw;
+}
+.bulletPoint{
+	flex:.1;
+	font-size: 30px;
+	font-weight: bolder;
 }
 
 .box1{
@@ -70,9 +95,9 @@ h1{
 }
 
 .fixed {
-      position: fixed;
-      top: 0;
-      width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 
@@ -84,22 +109,67 @@ h1{
 	flex:1;
 }
 
+.logo{
+	flex:.31;
+	max-width: 25px;
+	margin-left: 0;
+}
+
 .homeButton{
-	flex:1;
-	border-radius: 10px;
-	background-color: #666;
+	flex:.31;
+	background-color: #000;
+	text-align: center;
+	margin:auto;
+	max-width: 125px;
+	color:white;
+	border:none;
 	
 }
 
 .languages{
+	flex:.31;
 	border-width: 1px;
 	border-color: black;
 	border-radius: 10px;
-	background-color: #666;
+	background-color: #000;
+	margin-right: 0;
+	max-width: 125px;
+	color:white;
+	
+}
+
+.java-pic{
+
+	width: 100vw;
+	max-width: 400px;
+	
+}
+.javaScript-pic{
+	
+	width: 100vw;
+	max-width: 400px;
+}
+.cpp-pic{
+	
+	width: 100vw;
+	max-width: 400px;
+}
+.cSharp-pic{
+	
+	width: 100vw;
+	max-width: 400px;
+	
+}
+.python-pic{
+	
+	
+	width: 100vw;
+	max-width: 400px;
+	
 }
 
 #header {
-    background: #666;
+    background: #000;
     padding: 3px;
     padding: 10px 20px;
     color: #fff;
